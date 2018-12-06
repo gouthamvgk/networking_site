@@ -1,0 +1,70 @@
+body {
+	background-image: url("home.jpg");
+	background-size: cover;
+}
+.sign-up {
+	background-color: rgba(230,233,239,0.9);
+	width: 32%;
+	padding: 12px;
+	position: relative;
+	left: 33.5%;
+	top: 30px;
+	border-radius: 4px;
+}
+div.sign-up p{
+	font-family: Georgia, serif;
+	font-size: 1.8em;
+}
+div.sign-up input[type=text] {
+        width: 48%;
+        padding: 12px 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+	    float: left;
+	    margin-right: 3px;
+	    display: block;
+}
+div.sign-up input[type=number] {
+        width: 98%;
+        padding: 12px 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+	    position: relative;
+}
+div.sign-up input[type=email] {
+        width: 98%;
+        padding: 12px 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+div.sign-up input[type=password] {
+        width: 98%;
+        padding: 12px 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+div.sign-up p.ti {
+	font-family: Georgia, serif;
+	font-size: 1.2em;
+}
+.error {
+	font-size: 14px;
+	color: #FF0000;
+}
+div.sign-up input[type = submit] {
+	width: 100%;
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+	background-color: rgb(61, 128, 237);
+	font-family: Georgia, serif;
+	font-size: 1em;
+	color: white;
+	position: relative;
+	top: 8px;
+}

@@ -1,0 +1,64 @@
+body {
+	background-image: url("home.jpg");
+	background-size: cover;
+}
+.sign-in {
+	background-color: rgba(230,233,239,0.9);
+	width: 23%;
+	padding: 12px;
+	position: relative;
+	left: 38.5%;
+	top: 160px;
+	border-radius: 4px;
+}
+div.sign-in p{
+	font-family: Georgia, serif;
+	font-size: 1.8em;
+}
+div.sign-in p.ti {
+	font-family: Georgia, serif;
+	font-size: 1.2em;
+}
+div.sign-in span {
+	position: relative;
+	bottom:1px;
+	font-family: Georgia, serif;
+	font-size: 0.9em;
+}
+div.sign-in input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+div.sign-in input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+div.sign-in input[type = submit] {
+	width: 100%;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+	background-color: rgb(61, 128, 237);
+	font-family: Georgia, serif;
+	font-size: 1em;
+	color: white;
+}
+div.sign-in a:link {
+	color: blue;
+	text-decoration: none;
+}
+div.sign-in a:visited {
+	color: blue;
+	text-decoration: none;
+}
+.error {
+	font-family: Georgia, serif;
+	font-size: small;
+	color: #FF0000;
